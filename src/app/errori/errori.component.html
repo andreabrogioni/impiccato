@@ -1,0 +1,16 @@
+<!--<div>
+  <ng-content></ng-content>
+</div>-->
+<img *ngIf="this.errori == 0" src="../../assets/0errori.png" alt="0 errori" />
+<img *ngIf="this.errori == 1" src="../../assets/1errori.png" alt="1 errori" />
+<img *ngIf="this.errori == 2" src="../../assets/2errori.png" alt="2 errori" />
+<img *ngIf="this.errori == 3" src="../../assets/3errori.png" alt="3 errori" />
+<img *ngIf="this.errori == 4" src="../../assets/4errori.png" alt="4 errori" />
+<img *ngIf="this.errori == 5" src="../../assets/5errori.png" alt="5 errori" />
+<img *ngIf="this.errori >= 6" src="../../assets/gameover.png" alt="gameover" />
+<img
+  *ngIf="this.errori == -1"
+  src="../../assets/youwin.jpg"
+  alt="win"
+  style="height: 200; width: auto; margin-top: 100px"
+/>

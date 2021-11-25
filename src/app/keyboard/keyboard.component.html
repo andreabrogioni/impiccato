@@ -1,0 +1,10 @@
+<div>
+  <button
+    *ngFor="let lettera of alfabeto; let i = index"
+    class="btn btn-primary"
+    (click)="onLetteraUsata(i)"
+    [disabled]="!lettera.valore"
+  >
+    {{ lettera.nome }}
+  </button>
+</div>
